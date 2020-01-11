@@ -1,0 +1,72 @@
+\documentclass[12pt]{book}
+\usepackage{amsmath}
+\begin{document}
+
+\title{mathematical typesetting}
+\author{ns}
+\maketitle
+
+\chapter{Equation}
+
+\section{Inline Mode}
+Linear equation: $ x+y=0 $ and $ x^{31} $
+
+Meaning the next equation has no intiger solution:$x^n + y^n =z^n $
+
+\section{displaced mode}
+\underline{unnumbered}\\
+In physics, the mass-energy equvalance is started by the equation $$ E=nc^2 $$ discopvered in 1905 by Albert Einstein. \\
+
+\underline{numbered}\\
+
+in natural units,
+
+\begin{displaymath}
+c=1
+\end{displaymath}
+
+The formula express tghe identity
+
+\begin{equation}
+E=m
+\end{equation}
+
+\section{Aligning Equation}
+
+\begin{align*}
+x + 3y + 4z &= 2 \\
+3y - 4z &= 5 \\
+3 &= 4
+\end{align*}\\
+
+\section{Fractions}
+
+$\frac{x+3}{4}$
+
+\section{subscript and superscript}
+
+$ a_{11} $
+
+$$ X + \frac{-b \pm \sqrt{b^2-4ac}}{2qa} $$
+
+\section{special characters}
+
+\{\& \}
+
+\section{matrics}
+
+1. plain\\
+
+$$
+\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
+$$
+
+\section{diwsplay style}
+
+In-line math element $f(x)=\frac{1}{1+1}$ can be set with a different style: $
+f(x)=\displaystyle\frac{1}{1+x}$
+
+\end{document}
